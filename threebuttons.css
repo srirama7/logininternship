@@ -1,0 +1,154 @@
+/* General Styles */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fprofessor-background%2F3&psig=AOvVaw35eA42B-QMFXxDk5flxRHj&ust=1738735003557000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLiMueSqqYsDFQAAAAAdAAAAABAO);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* White Heading */
+.white-heading {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+/* Content Box Styles (Transparent Box) */
+.content-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    width: 90%; /* Responsive width */
+    max-width: 800px; /* Maximum width */
+    margin: 50px auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Button Container */
+.button-container {
+    display: flex; /* Ensure buttons are in a row */
+    justify-content: center; /* Center buttons horizontally */
+    gap: 10px; /* Space between buttons */
+    margin: 20px 0;
+}
+
+.button-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button-container button:hover {
+    background-color: #45a049; /* Darker green when hovered */
+}
+
+/* Form Container */
+.form-container {
+    display: none;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(173, 216, 230, 0.8); /* Light blue with transparency */
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 50%;
+}
+
+.form-container.active {
+    display: block;
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-container form input,
+.form-container form select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-container form input[type="submit"] {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.form-container form input[type="submit"]:hover {
+    background-color: #45a049; /* Darker green when hovered */
+}
+
+/* Display Container */
+.display-container {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(240, 240, 240, 0.8); /* Light gray background */
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 50%;
+    display: none;
+}
+
+.display-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+table th {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate row color */
+}
+
+table tr:hover {
+    background-color: #ddd; /* Hover effect */
+}
