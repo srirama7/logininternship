@@ -123,3 +123,40 @@ button:disabled {
         font-size: 16px;
     }
 }
+
+ .custom-select {
+        width: 100%;
+        padding: 12px;
+        font-size: 18px;
+        border: 2px solid #4CAF50;
+        border-radius: 8px;
+        background-color: #fff;
+        color: #333;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+    }
+
+    .custom-select:hover {
+        border-color: #45a049;
+        box-shadow: 0px 0px 10px rgba(76, 175, 80, 0.5);
+    }
+
+    /* Make the dropdown look bigger on focus */
+    .custom-select:focus {
+        border-color: #388E3C;
+        background-color: #f1f8e9;
+    }
+
+    /* Styling the container */
+    .select-container {
+        margin: 15px 0;
+        text-align: center;
+    }
+
+    .select-label {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 8px;
+        display: block;
+        color: #333;
+    }
